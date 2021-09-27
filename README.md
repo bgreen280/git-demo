@@ -21,28 +21,30 @@ This repo was developed by Bernie Green and used during a presentation to *CodeC
 ### Commands:
 1. git *__- access to git commands__*
 1. git clone url *__- clones repo repository from GitHub based on url__*
+1. git status *__- shows current status (un/staged) of all files in repository__*
 1. git add filename1 filename2 ... filenameN *__- add one or more files to staging area__*
 1. git commit *__- commit files to repository__*
-1. git satus *__- shows current status (un/staged) of all files in repository__*
 1. git diff *__- shows differences between un/staged__*
 1. git log *__- displays all commits__*
 1. git checkout HEAD filename *__- gets rid of changes in working directory__*
 1. git reset HEAD filename *__- unstages files in staging area__*
 1. git reset commit_SHA *__- resets to a specific commit based on first 7 chars of SHA__*
+1. git push *__- upload repo to GitHub__*
 1. git init *__- initialize git repository on local device__*
 
 ```bash
 commands:
 git 
 git clone url
+git status
 git add filename1 filename2 ... filenameN
 git commit 
-git sattus
 git diff
 git log
 git checkout HEAD filename
 git reset HEAD filename
 git reset commit_SHA
+git push
 git init
 ```
 
