@@ -92,7 +92,7 @@ touch new-file.txt
 
 # rm filename.ext 
 # deletes file from current directory
-git rum new-file.txt
+rm new-file.txt
 
 # git init 
 # initialize git repository on local device
@@ -100,7 +100,7 @@ git init
 
 # git command --help
 # display docs for specific git command
-git log --help
+git log --help # press 'q' to exit
 ```
 ---
 ## Resources
