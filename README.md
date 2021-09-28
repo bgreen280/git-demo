@@ -101,9 +101,9 @@ rm new-file.txt
 # initialize git repository on local device
 git init
 
-# git command --help
+# git help command
 # display docs for specific git command
-git log --help # press 'q' to exit
+git help log # press 'q' to exit
 
 # git show HEAD
 # shows current commit's log output + committed file changes
