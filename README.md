@@ -68,15 +68,18 @@ git diff
 git log
 
 # git checkout HEAD filename
-# gets rid of changes in working directory
+# deletes file changes in working directory
+# use with caution, cannot be undone
 git checkout HEAD filename
 
 # git reset HEAD filename
 # unstages files in staging area
+# use with caution, cannot be undone
 git reset HEAD filename
 
 # git reset commit_SHA
 # resets to a specific commit based on first 7 chars of SHA
+# use with caution, cannot be undone
 git reset commit_SHA
 
 # git push
@@ -101,6 +104,10 @@ git init
 # git command --help
 # display docs for specific git command
 git log --help # press 'q' to exit
+
+# git show HEAD
+# shows current commit's log output + committed file changes
+git show HEAD
 ```
 ---
 ## Resources
