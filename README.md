@@ -51,13 +51,13 @@ git clone https://github.com/bgreen280/git-demo.git
 # shows current status (un/staged) of all files in repository
 git status
 
-# git add filename1 filename2 ... filenameN
+# git add filename1 ... filename3 ... filenameN
 # add one or more files to staging area
-git add filename1 filename2 filename3 filename4
+git add filename1 filename2 filename3
 
-# git commit
+# git commit -m "message"
 # commit files to repository
-git commit
+git commit -m "created new files"
 
 # git diff
 # shows differences between un/staged
