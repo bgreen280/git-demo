@@ -87,7 +87,7 @@ git push
 ### Bonus Commands
 ```bash
 # touch filename.ext 
-# creates a new file in current directory__*
+# creates a new file in current directory
 touch new-file.txt
 
 # rm filename.ext 
