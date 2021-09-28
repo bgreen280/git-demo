@@ -97,6 +97,10 @@ git rum new-file.txt
 # git init 
 # initialize git repository on local device
 git init
+
+# git command --help
+# display docs for specific git command
+git log --help
 ```
 ---
 ## Resources
