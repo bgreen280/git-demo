@@ -18,80 +18,84 @@ This repo was developed by Bernie Green and used during a presentation to *CodeC
 ---
 ## Essential Questions
 ### git
-- What is git? ...a *version control* system which allows the practice of tracking and managing changes to software code [*__source__*](https://www.atlassian.com/git/tutorials/what-is-version-control)
-- Why use git?
-- How to use git?
-- When to use git?
+- What is git? ...a *version control* system which allows the practice of tracking and managing changes to software code - [*__source__*](https://www.atlassian.com/git/tutorials/what-is-version-control).
+- Why use git? ...it makes project management way easier...because development history is tracked and organized.
+- How to use git? ...start with the below commands!
+- When to use git? ... anytime you're developing a new coding project!
 
 ### GitHub
-- What is GitHub? 
-- Why use GitHub?
-- How to use GitHub?
-- When to use GitHub?
+- What is GitHub? ...a provider of Internet hosting for software development and version control using Git - [*__source__*](https://www.wikiwand.com/en/GitHub).
+- Why use GitHub? ...to collaborate with others and share your code with the world.
+- How to use GitHub? Start with creating your first repo! 
+- When to use GitHub? Whenever you have a project worthy of sharing online or requires remote collaboration.
 
 ### Markdown
-- What is Markdown? 
-- Why use Markdown?
-- How to use Markdown?
-- When to use Markdown?
+- What is Markdown? ...a lightwieght markup language for creating formatted text using a plain-text editor - [*__source__*](https://www.wikiwand.com/en/Markdown).
+- Why use Markdown? ...its easily read and formatted in any 'ole web browser
+- How to use Markdown? Check out the resources below!
+- When to use Markdown? You're first README! Or just as a notebook throughout the day or during class :)
 
 ---
 ## Commands:
-git *__- access to git commands__*
+
 ```bash
+# git
+# access to git commands
 git
-```
-git clone url *__- clones repo repository from GitHub based on url__*
-```bash
+
+# git clone url
+# clones repo repository from GitHub based on url
 git clone https://github.com/bgreen280/git-demo.git
-```
-git status *__- shows current status (un/staged) of all files in repository__*
-```bash
+
+# git status
+# shows current status (un/staged) of all files in repository
 git status
-```
-git add filename1 filename2 ... filenameN *__- add one or more files to staging area__*
-```bash
+
+# git add filename1 filename2 ... filenameN
+# add one or more files to staging area
 git add filename1 filename2 filename3 filename4
-```
-git commit *__- commit files to repository__*
-```bash
+
+# git commit
+# commit files to repository
 git commit
-```
-git diff *__- shows differences between un/staged__*
-```bash
+
+# git diff
+# shows differences between un/staged
 git diff
-```
-git log *__- displays all commits__*
-```bash
+
+# git log
+# displays all commits
 git log
-```
-git checkout HEAD filename *__- gets rid of changes in working directory__*
-```bash
+
+# git checkout HEAD filename
+# gets rid of changes in working directory
 git checkout HEAD filename
-```
-git reset HEAD filename *__- unstages files in staging area__*
-```bash
+
+# git reset HEAD filename
+# unstages files in staging area
 git reset HEAD filename
-```
-git reset commit_SHA *__- resets to a specific commit based on first 7 chars of SHA__*
-```bash
+
+# git reset commit_SHA
+# resets to a specific commit based on first 7 chars of SHA
 git reset commit_SHA
-```
-git push *__- upload repo to GitHub__*
-```bash
+
+# git push
+# upload repo to GitHub
 git push
 ```
-#### Bonus Commands
-touch filename.ext *__- creates a new file in current directory__*
+
+### Bonus Commands
 ```bash
+# touch filename.ext 
+# creates a new file in current directory__*
 touch new-file.txt
-```
-rm filename.ext *__- deletes file from current directory__*
-```bash
-git init
-```
-git init *__- initialize git repository on local device__*
-```bash
+
+# rm filename.ext 
+# deletes file from current directory
+git rum new-file.txt
+
+# git init 
+# initialize git repository on local device
 git init
 ```
 ---
@@ -111,4 +115,4 @@ git init
 1. [How to write a good README](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 1. [Next Level GitHub Profile README](https://www.youtube.com/watch?v=ECuqb5Tv9qI&t) *CodeSTACKr YouTube Video*
 ---
-##### Credit: [Codecademy: Full-Stack Engineer - Git and GitHub, Part 1](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
+#### Credit: [Codecademy: Full-Stack Engineer - Git and GitHub, Part 1](https://www.codecademy.com/learn/paths/full-stack-engineer-career-path)
